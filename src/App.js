@@ -21,9 +21,6 @@ function App() {
         <li className="nav-item">
           <a className="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
-        {/* <li className="nav-item">
-          <a className="nav-link js-scroll-trigger" href="#team">Team</a>
-        </li> */}
         <li className="nav-item">
           <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
         </li>
@@ -95,7 +92,6 @@ function App() {
     <div className="row">
       <div className="col-lg-12 text-center">
         <h2 className="section-heading text-uppercase">About</h2>
-        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
       </div>
     </div>
     <div className="row">
@@ -107,11 +103,11 @@ function App() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4>2009-2011</h4>
-                <h4 className="subheading">Our Humble Beginnings</h4>
+                <h4>2013-2017</h4>
+                <h4 className="subheading">High School</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p className="text-muted">In high school I played for the varsity football team, ran track, and maintained good grades. I was introduced to coding with a class on java my senior year. My interest in programming grew because of this class, and my interest in video games. I graduated from Alamo Heights High School in San Antonio Texas.</p>
               </div>
             </div>
           </li>
@@ -121,11 +117,11 @@ function App() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4>March 2011</h4>
-                <h4 className="subheading">An Agency is Born</h4>
+                <h4>2017-2019</h4>
+                <h4 className="subheading">Austin Community College</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p className="text-muted">I started attending ACC with the intent of doing basics, and transferring to a bigger university. My intended major was Computer Science. I got to take a class on both Python and C++ during my two years. </p>
               </div>
             </div>
           </li>
@@ -135,11 +131,11 @@ function App() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4>December 2012</h4>
-                <h4 className="subheading">Transition to Full Service</h4>
+                <h4>2019-2020</h4>
+                <h4 className="subheading">H-E-B Employee</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p className="text-muted">My position at H-E-B is providing customer service as a cashier or bagger, and being efficient when pushing carts outside. I assist customers in every way I can, and play one of the most important roles in their shopping experience. </p>
               </div>
             </div>
           </li>
@@ -149,8 +145,8 @@ function App() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4>July 2014</h4>
-                <h4 className="subheading">Phase Two Expansion</h4>
+                <h4>2019-2020</h4>
+                <h4 className="subheading">Austin Coding Academy</h4>
               </div>
               <div className="timeline-body">
                 <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
