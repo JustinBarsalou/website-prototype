@@ -131,7 +131,7 @@ function App() {
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h4>2019-2020</h4>
+                <h4>2019-Present</h4>
                 <h4 className="subheading">H-E-B Employee</h4>
               </div>
               <div className="timeline-body">
@@ -153,13 +153,13 @@ function App() {
               </div>
             </div>
           </li>
-          <li className="timeline-inverted">
+          {/* <li className="timeline-inverted">
             <div className="timeline-image">
               <h4>Be Part
                 <br/>Of Our
                 <br/>Story!</h4>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
@@ -204,7 +204,7 @@ function App() {
         <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
       </div>
     </div>
-    <div className="row">
+    {/* <div className="row">
       <div className="col-lg-12">
         <form id="contactForm" name="sentMessage" novalidate="novalidate">
           <div className="row">
@@ -236,7 +236,7 @@ function App() {
           </div>
         </form>
       </div>
-    </div>
+    </div> */}
   </div>
 </section>
 
@@ -245,37 +245,33 @@ function App() {
   <div className="container">
     <div className="row align-items-center">
       <div className="col-md-4">
-        <span className="copyright">Copyright &copy; Your Website 2019</span>
+        <span className="placeholder"> </span>
       </div>
       <div className="col-md-4">
         <ul className="list-inline social-buttons">
           <li className="list-inline-item">
-            <a href="#something">
-              <i className="fa fa-twitter"></i>
+            <a href="https://github.com/JustinBarsalou" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-github"></i>
             </a>
           </li>
           <li className="list-inline-item">
-            <a href="#something">
-              <i className="fa fa-facebook-f"></i>
+            <a href="https://www.linkedin.com/in/justin-barsalou/" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-linkedin"></i>
             </a>
           </li>
           <li className="list-inline-item">
-            <a href="#something">
-              <i className="fa fa-linkedin-in"></i>
+            <a href="/resume.jpeg" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-file"></i>
+            </a>
+          </li>
+          <li className="list-inline-item">
+            <a href="https://github.com/JustinBarsalou" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-clone"></i>
             </a>
           </li>
         </ul>
       </div>
-      <div className="col-md-4">
-        <ul className="list-inline quicklinks">
-          <li className="list-inline-item">
-            <a href="#something">Privacy Policy</a>
-          </li>
-          <li className="list-inline-item">
-            <a href="#something">Terms of Use</a>
-          </li>
-        </ul>
-      </div>
+
     </div>
   </div>
 </footer>
