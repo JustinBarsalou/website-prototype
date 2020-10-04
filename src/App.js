@@ -6,10 +6,10 @@ function App() {
     <div className="App">
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div className="container">
-    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    {/* <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i className="fa fa-bars"></i>
-    </button>
+    </button> */}
     <div className="collapse navbar-collapse" id="navbarResponsive">
       <ul className="navbar-nav text-uppercase ml-auto">
         <li className="nav-item">
@@ -98,8 +98,8 @@ function App() {
       <div className="col-lg-12">
         <ul className="timeline">
           <li>
-            <div className="timeline-image">
-              <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt=""/>
+            <div className="timeline-image mules">
+              <img className="rounded-circle img-fluid" alt=""/>
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
@@ -107,13 +107,13 @@ function App() {
                 <h4 className="subheading">High School</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">In high school I played for the varsity football team, ran track, and maintained good grades. I was introduced to coding with a class on java my senior year. My interest in programming grew because of this class, and my interest in video games. I graduated from Alamo Heights High School in San Antonio Texas.</p>
+                <p className="text-muted">In high school I played for the varsity football team, ran track, and maintained good grades. I was introduced to coding with a class on java my senior year, and my interest in coding grew from there. I graduated from Alamo Heights High School in San Antonio Texas.</p>
               </div>
             </div>
           </li>
           <li className="timeline-inverted">
-            <div className="timeline-image">
-              <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
+            <div className="timeline-image ACC">
+              <img className="rounded-circle img-fluid" alt=""/>
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
@@ -126,8 +126,8 @@ function App() {
             </div>
           </li>
           <li>
-            <div className="timeline-image">
-              <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt=""/>
+            <div className="timeline-image HEB">
+              <img className="rounded-circle img-fluid" alt=""/>
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
@@ -140,8 +140,8 @@ function App() {
             </div>
           </li>
           <li className="timeline-inverted">
-            <div className="timeline-image">
-              <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt=""/>
+            <div className="timeline-image ACA">
+              <img className="rounded-circle img-fluid" alt=""/>
             </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
@@ -149,7 +149,7 @@ function App() {
                 <h4 className="subheading">Austin Coding Academy</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p className="text-muted">I got an opportunity to really focus on coding at Austin Coding Academy. I got to make small projects in college, but here I was able to use my skills for more practical uses. I learned a variety of tools, all of which have allowed me to build projects and place me in some situations to get me ready for a real job. </p>
               </div>
             </div>
           </li>
@@ -200,10 +200,12 @@ function App() {
   <div className="container">
     <div className="row">
       <div className="col-lg-12 text-center">
-        <h2 className="section-heading text-uppercase">Contact Us</h2>
-        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 className="section-heading text-uppercase">Email Me:</h2>
+        <h3 className="section-subheading text-muted">justinbarsalou@gmail.com</h3>
       </div>
     </div>
+
+    {/* This is a message form that will be set up in the future */}
     {/* <div className="row">
       <div className="col-lg-12">
         <form id="contactForm" name="sentMessage" novalidate="novalidate">
@@ -260,12 +262,12 @@ function App() {
             </a>
           </li>
           <li className="list-inline-item">
-            <a href="/resume.jpeg" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/justin-barsalou/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACc-en8BVRGF8NhruBb10pRAdFKjKygQQI8,1601530225640)/" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-file"></i>
             </a>
           </li>
           <li className="list-inline-item">
-            <a href="https://github.com/JustinBarsalou" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/justin-barsalou/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAACc-en8BVRGF8NhruBb10pRAdFKjKygQQI8,1601745109737)/" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-clone"></i>
             </a>
           </li>
