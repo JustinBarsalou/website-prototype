@@ -46,7 +46,7 @@ function App() {
     <div className="row">
       <div className="col-lg-12 text-center">
         <h2 className="section-heading text-uppercase">Services</h2>
-        <h3 className="section-subheading text-muted">As an entry level web developer, I’m excited to start using my skills and provide assistance where it’s needed. Javascript and React have been my favorite tools to use, but I am always eager to learn more. I try to familiarize myself with common practices, and be able to adapt to things unfamiliar to me. I’ve created simple html pages, altered web applications, pulled information from REST API’S, and created my own basic web application with a login authentication. </h3>
+        <h3 className="section-subheading text-muted">As an entry level web developer, I’m excited to start using my skills and provide assistance where it’s needed. Javascript and React have been my favorite tools to use, but I am always eager to learn more. I try to familiarize myself with common practices, and be able to adapt to things unfamiliar to me. I’ve created simple html pages, altered web applications, pulled information from REST API’S, and created my own basic weather application with a login authentication. </h3>
         <h3 className="section-subheading text-muted border-gone">Languages: HTML, CSS, JavaScript, Python, C++</h3>
         <h3 className="section-subheading text-muted border-gone">Databases: MySQL</h3>
         <h3 className="section-subheading text-muted border-gone">Libraries: React</h3>
@@ -69,7 +69,7 @@ function App() {
           <i className="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
         </span>
         <h4 className="service-heading">Client Experience</h4>
-        <p className="text-muted">Having worked in customer service, making sure the customer is happy has been my top priority. I do my best to ensure that customers are satisfied, and leave feeling better than they did before.</p>
+        <p className="text-muted">Having worked in customer service, making sure the customer is happy has been my top priority. I do my best to ensure that customers leave feeling better than they did before interacting with me.</p>
       </div>
       <div className="col-md-4">
         <span className="fa-stack fa-4x">
@@ -121,7 +121,7 @@ function App() {
                 <h4 className="subheading">Austin Community College</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">I started attending ACC with the intent of doing basics, and transferring to a bigger university. My intended major was Computer Science. I got to take a class on both Python and C++ during my two years. </p>
+                <p className="text-muted">I started attending ACC with the intent of doing basics, and transferring to a bigger university. My intended major was Computer Science. I was able to take a class on both Python and C++ during my two years. </p>
               </div>
             </div>
           </li>
@@ -149,7 +149,7 @@ function App() {
                 <h4 className="subheading">Austin Coding Academy</h4>
               </div>
               <div className="timeline-body">
-                <p className="text-muted">I got an opportunity to really focus on coding at Austin Coding Academy. I got to make small projects in college, but here I was able to use my skills for more practical uses. I learned a variety of tools, all of which have allowed me to build projects and place me in some situations to get me ready for a real job. </p>
+                <p className="text-muted">I saw a great opportunity to really focus on coding at Austin Coding Academy. I got to make small projects in college, but here I was able to use my skills for more practical uses. I learned a variety of tools, all of which have allowed me to build projects and place me in some situations to get me ready for a real job. </p>
               </div>
             </div>
           </li>
