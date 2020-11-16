@@ -1,4 +1,5 @@
 import React from 'react';
+import Portfolio from './components/portfolio'
 import './App.css';
 
 function App() {
@@ -79,7 +80,7 @@ function App() {
 </section>
 
 
-{/* <Portfolio portfolioLinks={portfolioLinks}></Portfolio> */}
+<Portfolio></Portfolio>
 
 
 <section className="page-section" id="about">
