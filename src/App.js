@@ -6,10 +6,6 @@ function App() {
     <div className="App">
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div className="container">
-    {/* <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i className="fa fa-bars"></i>
-    </button> */}
     <div className="collapse navbar-collapse" id="navbarResponsive">
       <ul className="navbar-nav text-uppercase ml-auto">
         <li className="nav-item">
@@ -34,8 +30,7 @@ function App() {
   <div className="container">
     <div className="intro-text">
       <div className="intro-lead-in">My Name is Justin Barsalou</div>
-      <div className="intro-heading text-uppercase">Entry Level Web Development</div>
-      {/* <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> */}
+      <div className="intro-heading text-uppercase">Junior Web Development</div>
     </div>
   </div>
 </header>
@@ -46,7 +41,7 @@ function App() {
     <div className="row">
       <div className="col-lg-12 text-center">
         <h2 className="section-heading text-uppercase">Services</h2>
-        <h3 className="section-subheading text-muted">As an entry level web developer, I’m excited to start using my skills and provide assistance where it’s needed. Javascript and React have been my favorite tools to use, but I am always eager to learn more. I try to familiarize myself with common practices, and be able to adapt to things unfamiliar to me. I’ve created simple html pages, altered web applications, pulled information from REST API’S, and created my own basic weather application with a login authentication. </h3>
+        <h3 className="section-subheading text-muted">As a junior developer, I’m excited to start using my skills and provide assistance where it’s needed. Javascript and React have been my favorite tools to use, but I am always eager to learn more. I try to familiarize myself with common practices, and be able to adapt to things unfamiliar to me. I’ve created simple html pages, altered web applications, pulled information from REST API’S, and created my own basic weather application with a login authentication. </h3>
         <h3 className="section-subheading text-muted border-gone">Languages: HTML, CSS, JavaScript, Python, C++</h3>
         <h3 className="section-subheading text-muted border-gone">Databases: MySQL</h3>
         <h3 className="section-subheading text-muted border-gone">Libraries: React</h3>
@@ -153,13 +148,6 @@ function App() {
               </div>
             </div>
           </li>
-          {/* <li className="timeline-inverted">
-            <div className="timeline-image">
-              <h4>Be Part
-                <br/>Of Our
-                <br/>Story!</h4>
-            </div>
-          </li> */}
         </ul>
       </div>
     </div>
@@ -205,40 +193,6 @@ function App() {
       </div>
     </div>
 
-    {/* This is a message form that will be set up in the future */}
-    {/* <div className="row">
-      <div className="col-lg-12">
-        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="form-group">
-                <input className="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name."/>
-                <p className="help-block text-danger"></p>
-              </div>
-              <div className="form-group">
-                <input className="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address."/>
-                <p className="help-block text-danger"></p>
-              </div>
-              <div className="form-group">
-                <input className="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number."/>
-                <p className="help-block text-danger"></p>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="form-group">
-                <textarea className="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                <p className="help-block text-danger"></p>
-              </div>
-            </div>
-            <div className="clearfix"></div>
-            <div className="col-lg-12 text-center">
-              <div id="success"></div>
-              <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div> */}
   </div>
 </section>
 
