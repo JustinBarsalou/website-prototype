@@ -1,8 +1,27 @@
 import React from 'react';
 import Portfolio from './components/portfolio'
 import './App.css';
+import chuckNorris from './assets/img/chuck.jpg'
+import weather from './assets/img/weather.jpg'
 
 function App() {
+  const portfolioLinks = [
+    {
+      title: 'Weather App',
+      caption: 'Barebones, login or sign up and view the weather.',
+      img: weather,
+      url: 'https://itssimplyweather.herokuapp.com/',
+      repo: 'https://github.com/JustinBarsalou/weather-app-2.0/tree/e77c14f65ee21fd322a0e1a4449baf7421388fff/weather-app-2.0'
+    },
+    {
+      title: 'Chuck It Up',
+      caption: 'A simple, funny chuck norris joke generator.',
+      img: chuckNorris,
+      url: 'https://chuck-norris-hehe.herokuapp.com/',
+      repo: 'https://github.com/JustinBarsalou/chuck-norris'
+    }
+  ]
+
   return (
     <div className="App">
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -12,9 +31,9 @@ function App() {
         <li className="nav-item">
           <a className="nav-link js-scroll-trigger" href="#services">Services</a>
         </li>
-        {/* <li className="nav-item">
+        <li className="nav-item">
           <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li> */}
+        </li>
         <li className="nav-item">
           <a className="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
@@ -80,7 +99,7 @@ function App() {
 </section>
 
 
-<Portfolio></Portfolio>
+<Portfolio portfolioLinks={portfolioLinks}></Portfolio>
 
 
 <section className="page-section" id="about">
