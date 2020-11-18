@@ -1,9 +1,10 @@
-import React from 'react' 
+import React from 'react'
+import '../assets/css/portfolio.css' 
 
 
 export default ({ portfolioLinks }) => {
     return (
-        <section className="bg-light page-section" id="portfolio">
+      <section className="bg-light page-section" id="portfolio">
         <div className="container">
 
           <div className="row">
@@ -14,9 +15,10 @@ export default ({ portfolioLinks }) => {
 
           <div className="row">
             {portfolioLinks.map(({ title, caption, img, url, repo}, index) => 
-                    <div className="col-md-4 col-sm-6 portfolio-item">
+                    // Hover animation
+                    <div className="col-md-4 col-sm-6 portfolio-item pulse">
                       <a className="portfolio-link" data-toggle="modal" href={url}>
-                          <img className="img-fluid" src={img} alt='project'/>
+                          <img className="img-fluid image" src={img} alt='project'/>
                       </a>
                       <div className="portfolio-caption">
                         <h4>{ title }</h4>
@@ -27,7 +29,6 @@ export default ({ portfolioLinks }) => {
                 )
             }
           </div>
-
 
         </div>
       </section>
