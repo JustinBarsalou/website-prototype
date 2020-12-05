@@ -1,17 +1,18 @@
 import React from 'react';
 import Portfolio from './components/portfolio'
 import './App.css';
+import callOfDuty from './assets/img/COD.jpg'
 import chuckNorris from './assets/img/chuck.jpg'
 import weather from './assets/img/weather.jpg'
 
 function App() {
   const portfolioLinks = [
     {
-      title: 'Weather App',
-      caption: 'Barebones, login or sign up and view the weather.',
-      img: weather,
-      url: 'https://itssimplyweather.herokuapp.com/',
-      repo: 'https://github.com/JustinBarsalou/weather-app-2.0/tree/e77c14f65ee21fd322a0e1a4449baf7421388fff/weather-app-2.0'
+      title: 'Current Project (Not Up)',
+      caption: 'App that pull up game statistics for Modern Warfare',
+      img: callOfDuty,
+      url: '',
+      repo: 'https://github.com/JustinBarsalou/game-stats'
     },
     {
       title: 'Chuck It Up',
@@ -19,7 +20,14 @@ function App() {
       img: chuckNorris,
       url: 'https://chuck-norris-hehe.herokuapp.com/',
       repo: 'https://github.com/JustinBarsalou/chuck-norris'
-    }
+    },
+    {
+      title: 'Weather App',
+      caption: 'Barebones, login or sign up and view the weather.',
+      img: weather,
+      url: 'https://itssimplyweather.herokuapp.com/',
+      repo: 'https://github.com/JustinBarsalou/weather-app-2.0/tree/e77c14f65ee21fd322a0e1a4449baf7421388fff/weather-app-2.0'
+    },
   ]
 
   
